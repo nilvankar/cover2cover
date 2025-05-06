@@ -30,21 +30,7 @@ const Header = ({darkMode}) => {
 
           <Navbar.Toggle aria-controls="navbarSearch" />
 
-          <Navbar.Collapse id="navbarSearch">
-            <Form className="d-flex mx-auto my-2 my-lg-0" style={{ maxWidth: '500px', width: '100%' }}>
-              <Form.Control
-                type="search"
-                placeholder="Search students, reports..."
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-primary">
-                Search
-              </Button>
-            </Form>
-
           
-          </Navbar.Collapse>
         </Container>
       </Navbar>
 

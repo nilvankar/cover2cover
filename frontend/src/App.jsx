@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/common/Header';
-import Footer from './components/common/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Recommend from './pages/Recommend';
@@ -21,7 +20,7 @@ function App() {
              
             </Routes>
           </Container>
-          <Footer />
+          
         </div>
     </Router>
   );

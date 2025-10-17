@@ -15,7 +15,7 @@ def get_books():
 
 
 @main.route('/recommend_books', methods=['GET'])
-@login_required
+# @login_required
 def recommend():
     book_title = request.args.get('title')
     if not book_title:
